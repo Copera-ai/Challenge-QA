@@ -1,0 +1,7 @@
+{
+  "default": {
+    "import": [
+      "src/steps/**/*.ts"
+    ]
+  }
+}

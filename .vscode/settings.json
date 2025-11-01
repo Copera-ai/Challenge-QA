@@ -1,0 +1,24 @@
+{
+    "cSpell.words": [
+        "PUBLICURL",
+        "vikunja"
+    ],
+    "cucumber.glue": [
+        "src/steps/**/*.ts"
+    ],
+    "sqltools.useNodeRuntime": true,
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "database": "${workspaceFolder:copera-challenge-qa}/data/db/vikunja.db",
+            "name": "db"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "database": "${workspaceFolder:copera-challenge-qa}/src/fixtures/basic.db",
+            "name": "db2"
+        }
+    ]
+}
